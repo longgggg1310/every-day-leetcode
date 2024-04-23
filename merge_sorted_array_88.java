@@ -1,6 +1,6 @@
 public class merge_sorted_array_88 {
     public static void merge(int[] nums1, int m, int[] nums2, int n) {
-        for (int i : nums2) {
+        for (int i = 0; i < nums2.length; i++) {
             insert_into_array(i, nums1, m);
             m++;
         }
@@ -12,7 +12,7 @@ public class merge_sorted_array_88 {
             if (a[k] > x) {
                 found_value = true;
                 for (int i = m - 1; i >= k; i--) {
-                    a[i + i] = a[i];
+                    a[i + 1] = a[i];
                 }
                 a[k] = x;
                 break;
@@ -20,6 +20,14 @@ public class merge_sorted_array_88 {
         }
         if (found_value == false) {
             a[m] = x;
+
         }
+    }
+
+    public static void main(String[] args) {
+        int[] n1 = { 2, 3, 4, 5, 0, 0, 0 };
+        int[] n2 = { 0, 3, 6 };
+        merge(n1, 4, n2, 3);
+
     }
 }

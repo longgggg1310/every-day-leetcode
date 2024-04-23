@@ -24,7 +24,6 @@ public class find_even_1295 {
     public static void main(String[] args) {
         int nums[] = { 12, 345, 2, 6, 7896 };
         System.out.println(find_even_1295(nums));
-
     }
 
 }
