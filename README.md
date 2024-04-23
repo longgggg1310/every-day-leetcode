@@ -15,7 +15,7 @@ Every-Day-Leetcode (Java) is a project aimed at helping you improve your Java co
 To get started with Every-Day-Leetcode (Java), follow these steps:
 
 1. Clone the repository: `git clone https://github.com/longgggg1310/every-day-leetcode.git`
-2. Navigate to the Java directory: `cd Every-Day-Leetcode/Java`
+2. Navigate to the Java directory: `cd Every-Day-Leetcode`
 3. Start solving Leetcode problems in Java!
 
 ## Usage
